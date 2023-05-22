@@ -13,6 +13,7 @@
     "nuxt": "^3.5.0"
   },
   "dependencies": {
-    "nuxt-storage": "^1.2.2"
+    "nuxt-storage": "^1.2.2",
+    "sass": "^1.62.1"
   }
 }

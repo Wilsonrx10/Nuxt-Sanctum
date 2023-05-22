@@ -14,10 +14,14 @@
 
 <script setup>
 import nuxtStorage from 'nuxt-storage';
-
 useHead({
   title: "Login Sanctum",
 });
+
+definePageMeta({
+  middleware: ['autenticated'],
+});
+
 const form = ref({});
 const respond = ref();
 const {fecthPOST} = useFetch(respond)
